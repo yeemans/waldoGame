@@ -1,0 +1,2 @@
+class WaldoLocation < ApplicationRecord
+end
