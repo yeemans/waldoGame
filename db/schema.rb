@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.0].define(version: 2022_11_01_214436) do
+ActiveRecord::Schema[7.0].define(version: 2022_11_07_172236) do
   create_table "high_scores", force: :cascade do |t|
     t.string "user"
     t.float "score"
@@ -34,6 +34,10 @@ ActiveRecord::Schema[7.0].define(version: 2022_11_01_214436) do
     t.integer "waldo3_y2"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.integer "waldo4_x1"
+    t.integer "waldo4_x2"
+    t.integer "waldo4_y1"
+    t.integer "waldo4_y2"
   end
 
 end
